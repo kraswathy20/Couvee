@@ -1,0 +1,303 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&family=Fuzzy+Bubbles&family=Nunito+Sans:wght@200&family=Permanent+Marker&display=swap");
+#myVideo {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+}
+.wrapper {
+  position: relative;
+  height: 600px;
+  width: 100%;
+  /* background-color: black; */
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header {
+  position: absolute;
+  background-color: rgba(240, 240, 224);
+  height: inherit;
+  width: 230px;
+  text-align: center;
+  padding-top: 50px;
+}
+.brand {
+  position: relative;
+  top: 25px;
+  left: 527px;
+  width: 300px;
+}
+ul {
+  list-style-type: none;
+  /* padding: 70px;
+  margin: 20px; */
+  padding: 10px 0 0 0;
+  margin: 10px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+li a {
+  display: block;
+  width: 10px;
+  text-decoration: none;
+  color: black;
+  font-size: 32px;
+  padding: 10px;
+  align-self: center;
+  font-family: "Alegreya Sans", sans-serif;
+}
+.main {
+  width: 100%;
+  height: 600px;
+  /* background-color: aquamarine; */
+  display: flex;
+  align-items: flex-end;
+}
+.sub-1 {
+  width: 50%;
+  height: 545px;
+  background-color: antiquewhite;
+  /* border: 1px solid black; */
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sub-2 {
+  width: 50%;
+  height: 545px;
+  background-color: rgba(240, 240, 224);
+  /* border: 1px solid black; */
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.story {
+  width: 100%;
+  max-width: 330px;
+  max-height: 400px;
+}
+#tag1 {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 60px;
+}
+p {
+  font-family: "Nunito Sans", sans-serif;
+  text-align: center;
+}
+#btn {
+  background-color: rgb(229, 177, 109);
+  color: white;
+  border: 1px solid burlywood;
+  padding: 10px 15px;
+  margin-top: 16px;
+  border-radius: 2px;
+}
+.menu {
+  width: 100%;
+  height: 600px;
+  /* background-color: rgba(240, 240, 224); */
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 40px;
+  align-items: center;
+}
+.col {
+  height: 330px;
+  width: 262px;
+  border: 1px solid white;
+  border-radius: 10px;
+  margin-top: 0px;
+  color: white;
+  font-size: 20px;
+  padding-left: 20px;
+  font-family: "Alegreya Sans", sans-serif;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.col-1 {
+  background-image: url("./coffee/BlackLatte.jpg");
+  background-size: cover;
+}
+.col-2 {
+  background-image: url("./coffee/caramelMachetto.jpg");
+  background-size: cover;
+}
+.col-3 {
+  background-image: url("./coffee/RedVelvett.jpg");
+  background-size: cover;
+}
+#tag2 {
+  position: absolute;
+  top: 1290px;
+  left: 520px;
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 60px;
+}
+.tag3 {
+  position: absolute;
+  font-family: "Alegreya Sans", sans-serif;
+}
+.tag3-1 {
+  left: 167px;
+  top: 1787px;
+}
+.tag3-2 {
+  left: 540px;
+  top: 1787px;
+}
+.tag3-3 {
+  left: 957px;
+  top: 1787px;
+}
+.tag3-4 {
+  position: absolute;
+  left: 597px;
+  top: 1855px;
+}
+.location {
+  width: 100%;
+  height: 600px;
+  /* background-color: aquamarine; */
+  display: flex;
+  align-items: flex-end;
+}
+.sec-1 {
+  width: 50%;
+  height: 545px;
+  background-color: rgba(240, 240, 224);
+  /* border: 1px solid black; */
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#loc1 {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 60px;
+}
+.purchase {
+  width: 100%;
+  height: 600px;
+  /* background-color: rgba(240, 240, 224); */
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 40px;
+  align-items: center;
+}
+.sec-2 {
+  width: 50%;
+  height: 545px;
+  background-color: antiquewhite;
+  /* border: 1px solid black; */
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#purch-head {
+  position: absolute;
+  top: 2560px;
+  left: 520px;
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 60px;
+}
+.col-4 {
+  background-image: url("./coffee/bag.jpg");
+  background-size: cover;
+}
+.col-5 {
+  background-image: url("./coffee/tee.jpg");
+  background-size: cover;
+}
+.col-6 {
+  background-image: url("./coffee/mug.jpg");
+  background-size: contain;
+}
+.footer {
+  width: 100%;
+  height: 300px;
+  background-color: rgba(240, 240, 224);
+}
+#logo-img {
+  margin-left: 50%;
+  margin-top: 50px;
+}
+#foot-head {
+  margin-left: 35%;
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 60px;
+}
+#btn:hover {
+  outline-color: transparent;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.col:hover {
+  opacity: 0.4;
+}
+.links:hover {
+  text-decoration: line-through;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#brand-text {
+  position: sticky;
+  top: 0px;
+  background-color: white;
+  width: 100%;
+  height: 70px;
+}
+.sub-footer {
+  background-image: url("./coffee/footer-bg.png");
+  width: 70%;
+  height: 350px;
+  /* background-color: aquamarine; */
+  margin-top: 20px;
+  margin-left: 16%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.foot {
+  height: 60%;
+  width: 200px;
+  /* border: 1px solid black; */
+  border-radius: 10px;
+  margin-top: 20px;
+  color: black;
+  font-size: 20px;
+  padding-left: 20px;
+  font-family: "Alegreya Sans", sans-serif;
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+.foot1 {
+  text-align: left;
+  text-decoration: none;
+  font-size: 17px;
+}
+.foot2 {
+  text-align: left;
+
+  font-size: 17px;
+}
+.foot1 {
+  text-align: left;
+
+  font-size: 17px;
+}
+.design {
+  width: 100%;
+  height: 50px;
+  background-color: rgb(216, 190, 157);
+  color: black;
+  font-size: 17px;
+  text-align: center;
+  padding-top: 2px;
+  font-family: "Alegreya Sans", sans-serif;
+}
